@@ -35,10 +35,17 @@
 
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <p> Pipe Catalogue: <p>
+        <a href="#">- PVC Pressure</a>
+        <a href="#">- PVC DWV</a>
+        <a href="#">- PVC Stormwater</a>
+        <a href="#">- Gas</a>
+        <a href="#">- Air</a>
+        <a href="#">- Poly</a>
+        <a href="#">- Electrical Conduit</a>
+        <a href="#">- Communication Conduit</a>
+        <a href="#">- Slotted</a>
+
     </div>
 
 <body class="col-md-16">
@@ -46,45 +53,21 @@
             <div class="primary-container">
 <!--                <div class="primary-row">-->
                     <!-- changed from col-md-12 to col-md-18 to fit the bigger logo (image)-->
-                    <div class="col-md-16">
+                    <div class="col-md-18">
                         <a href="index.html"><div class="logo">
-                            <img src="img/Screenshot%202023-05-18%20165315.png" alt="Pipe Logo">
+                            <img src="img/pipelogoBigger.png" alt="Pipe Logo">
                         </div></a>
                         <button id="primary-nav-button" type="button">Menu</button>
                         <nav class="header-nav" id="primary-nav" class="dropdown cf">
                             <div class="container-nav-item" style ="margin-top: 5px">
                             <ul class="dropdown menu">
-                                <li class='active'><a href="#">Popular</a></li>
-                                <li><a href="#">Most Visited</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="#">Most Visited 1</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="#">Sub Visited Menu 1</a></li>
-                                                <li><a href="#">Sub Visited Two</a></li>
-                                                <li><a href="#">Sub Visited Menu 3</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Most Visited 2</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="#">Sub Visited Menu 4</a></li>
-                                                <li><a href="#">Sub Visited Five</a></li>
-                                                <li><a href="#">Sub Visited Menu 6</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Most Visited 3</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="#">Sub Visited Menu 7</a></li>
-                                                <li><a href="#">Sub Visited #8</a></li>
-                                                <li><a href="#">Sub Visited Menu 9</a></li>
-                                                <li><a href="#">Sub Visited #10</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a class="scrollTo" data-scrollTo="blog" href="#">About us</a></li>
-                                <li><a class="scrollTo" data-scrollTo="services" href="#">Our Services</a></li>
-                                <li><a href="#"> <img  src="img/shopCartImage.png" style="height: 50px">Cart </a></li>
-                                <li><a href="#"> <img src="img/profileIcon.png" style="height: 50px;"> Profile </a></li>
+                                <li><a class="scrollTo" data-scrollTo="discount" href="#">Discount</a></li>
+                                <li><a class="scrollTo" data-scrollTo="pipes" href="#">All Pipes</a></li>
+                                <li><a class="scrollTo" data-scrollTo="map" href="#">Branch</a></li>
+                                <li><a class="scrollTo" data-scrollTo="about" href="#">About us</a></li>
+<!--                                <li><a class="scrollTo" data-scrollTo="services" href="#">Our Services</a></li>-->
+                                <li><a href="#"> <img  src="img/shopCartImage.png" style="height: 50px">Cart</a></li>
+                                <li><a href="#"> <img src="img/profileIcon.png" style="height: 50px;"> </a></li>
                             </ul>
                             </div>
                         </nav><!-- / #primary-nav -->
@@ -122,26 +105,27 @@
             </div>
         </div>
     </section>
-    <!-- Popular places section-->
-    <div class="container">
+    <!-- Pipe Discount section-->
+    <div class="container" style="background-color: lightskyblue;">
 
-        <section class="popular-places" id="popular">
+        <section class="discount-pipes" id="discount">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-heading">
-                            <span>Popular Places</span>
-                            <h2>Integer sapien odio</h2>
+                            <h1> Pipes on sale </h1>
+                            <span style="color: black"> Prices shown may vary the next day</span>
                         </div>
                     </div>
                 </div>
                 <div class="owl-carousel owl-theme">
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="img/popular_item_1.jpg" alt="">
+                            <img src="img/PVC-pipe.jpg" alt="PVC Pipe">
                             <div class="text-content">
-                                <h4>Mauris tempus</h4>
-                                <span>76 listings</span>
+                                <h1> <a style="text-decoration: line-through"> 51$</a> 33$ </h1>
+                                <h4>Pipe Pressure PVC</h4>
+                                <span> 20 MM Cl 12, 4 Meter</span>
                             </div>
                             <div class="plus-button">
                                 <a href="#"><i class="fa fa-plus"></i></a>
@@ -150,10 +134,11 @@
                     </div>
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="img/popular_item_2.jpg" alt="">
+                            <img src="img/PVC-pipe.jpg" alt="PVC Pipe">
                             <div class="text-content">
-                                <h4>Aenean dolor</h4>
-                                <span>18 listings</span>
+                                <h1> <a style="text-decoration: line-through"> 20$</a> 17$ </h1>
+                                <h4>Pipe Pressure PVC</h4>
+                                <span>20 MM CL 18, 6 Meter</span>
                             </div>
                             <div class="plus-button">
                                 <a href="#"><i class="fa fa-plus"></i></a>
@@ -162,10 +147,11 @@
                     </div>
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="img/popular_item_3.jpg" alt="">
+                            <img src="img/POLY-Pipe.jpg" alt="POLY Pipe">
                             <div class="text-content">
-                                <h4>Nunc at quam</h4>
-                                <span>55 listings</span>
+                                <h1> <a style="text-decoration: line-through"> 10$</a> 4$ </h1>
+                                <h4>Pipe Poly</h4>
+                                <span>50 NM, 6 Meter</span>
                             </div>
                             <div class="plus-button">
                                 <a href="#"><i class="fa fa-plus"></i></a>
@@ -174,10 +160,11 @@
                     </div>
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="img/popular_item_4.jpg" alt="">
+                            <img src="img/POLY-Pipe.jpg" alt="POLY Pipe">
                             <div class="text-content">
-                                <h4>Fusce ac turpis</h4>
-                                <span>66 listings</span>
+                                <h1> <a style="text-decoration: line-through"> 20$</a> 18$ </h1>
+                                <h4>Pipe Poly</h4>
+                                <span>10 NM, 30 Meter</span>
                             </div>
                             <div class="plus-button">
                                 <a href="#"><i class="fa fa-plus"></i></a>
@@ -186,10 +173,11 @@
                     </div>
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="img/popular_item_5.jpg" alt="">
+                            <img src="img/STORMWATER-Pipe.jpg" alt="STORMWATER Pipe">
                             <div class="text-content">
-                                <h4>Lorem ipsum</h4>
-                                <span>82 listings</span>
+                                <h1> <a style="text-decoration: line-through"> 60$</a> 50$ </h1>
+                                <h4>Pipe Stormwater PVC</h4>
+                                <span>75 MM 6 Meter</span>
                             </div>
                             <div class="plus-button">
                                 <a href="#"><i class="fa fa-plus"></i></a>
@@ -198,10 +186,11 @@
                     </div>
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="img/popular_item_1.jpg" alt="">
+                            <img src="img/AIR-Pipe.jpg" alt="AIR Pipe">
                             <div class="text-content">
-                                <h4>Praesent nec</h4>
-                                <span>76 listings</span>
+                                <h1> <a style="text-decoration: line-through"> 35$</a> 20$ </h1>
+                                <h4>Pipe Air PE</h4>
+                                <span>20 MM PN 25, 6 Meter</span>
                             </div>
                             <div class="plus-button">
                                 <a href="#"><i class="fa fa-plus"></i></a>
@@ -210,10 +199,11 @@
                     </div>
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="img/popular_item_2.jpg" alt="">
+                            <img src="img/AIR-Pipe.jpg" alt="AIR Pipe">
                             <div class="text-content">
-                                <h4>Suspendisse</h4>
-                                <span>36 listings</span>
+                                <h1> <a style="text-decoration: line-through"> 42$</a> 37$ </h1>
+                                <h4>Pipe Air PE</h4>
+                                <span>32 MM PN 25, 6 meter</span>
                             </div>
                             <div class="plus-button">
                                 <a href="#"><i class="fa fa-plus"></i></a>
@@ -222,10 +212,11 @@
                     </div>
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="img/popular_item_3.jpg" alt="">
+                            <img src="img/GAS-Pipe.jfif" alt="Gas Pipe">
                             <div class="text-content">
-                                <h4>Bibendum</h4>
-                                <span>48 listings</span>
+                                <h1> <a style="text-decoration: line-through"> 41$</a> 35$ </h1>
+                                <h4>Gas Pipe</h4>
+                                <span>30 MM CL 12, 10 Meter</span>
                             </div>
                             <div class="plus-button">
                                 <a href="#"><i class="fa fa-plus"></i></a>
@@ -234,10 +225,11 @@
                     </div>
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="img/popular_item_4.jpg" alt="">
+                            <img src="img/SLOTTED-Pipe.jpg" alt="SLOTTED Pipe">
                             <div class="text-content">
-                                <h4>Quisque sodales</h4>
-                                <span>66 listings</span>
+                                <h1> <a style="text-decoration: line-through"> 80$</a> 70$ </h1>
+                                <h4>Pipe Slotted PVC</h4>
+                                <span> 20 MM Cl 12, 12 Meter</span>
                             </div>
                             <div class="plus-button">
                                 <a href="#"><i class="fa fa-plus"></i></a>
@@ -246,10 +238,11 @@
                     </div>
                     <div class="item popular-item">
                         <div class="thumb">
-                            <img src="img/popular_item_4.jpg" alt="">
+                            <img src="img/SLOTTED-Pipe.jpg" alt="SLOTTED Pipe">
                             <div class="text-content">
-                                <h4>Quisque sodales</h4>
-                                <span>66 listings</span>
+                                <h1> <a style="text-decoration: line-through"> 50$</a> 40$ </h1>
+                                <h4>Pipe Slotted PVC</h4>
+                                <span> 10 MM Cl 12, 6 Meter</span>
                             </div>
                             <div class="plus-button">
                                 <a href="#"><i class="fa fa-plus"></i></a>
@@ -262,14 +255,16 @@
 
     </div>
 
+        <!-- Featured  Pipes Section -->
+        <!-- Props to the max-height attribute, huge help for images that doesnt fit/overflow a certain height/constrain to certain height-->
 
-    <section class="featured-pipes" id="blog">
+        <!-- Added bottom-padding in bootstrap.min.css for the col-... type classes-->
+    <section class="featured-pipes" id="pipes" style="background-color:lightgray">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <span>Featured Places</span>
-                        <h2>Praesent nec dui sed urna</h2>
+                        <h1>All Available Pipes</h1>
                     </div>
                 </div>
             </div>
@@ -277,11 +272,10 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="featured-item">
                         <div class="thumb">
-                            <img src="img/pvcpressurepipe.jpg" alt="">
+                            <img src="img/PVC-pipe.jpg" alt="PVC pipe">
                         </div>
                         <div class="down-content">
                             <h4>PVC Pressure Pipe </h4>
-                            <!--                            <span>Category Three</span>-->
                             <p> Suitable for a wide range of water applications such as water supply, water recycling, irrigation, pressure sewerage and industrial applications.</p>
                             <div class="row">
                                 <div class="col-md-12 first-button">
@@ -296,16 +290,15 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="featured-item">
                         <div class="thumb">
-                            <img src="img/dwvpipe1.jpg" alt="">
+                            <img src="img/DWV-Pipe.jfif" alt="DWV Pipe">
                         </div>
                         <div class="down-content">
                             <h4>DWV Pipes & Parts</h4>
-                            <!--                            <span>Category Three</span>-->
                             <p> Pipes specialised in Drain, Waste and Vent; best used in tandem with gravity so water is able to flow carrying waste out the pipe</p>
                             <div class="row">
                                 <div class="col-md-12 first-button">
                                     <div class="text-button">
-                                        <a href="#">View all DMV Pipes & Parts</a>
+                                        <a href="#">View all DWV Pipes & Parts</a>
                                     </div>
                                 </div>
                             </div>
@@ -315,24 +308,10 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="featured-item">
                         <div class="thumb">
-                            <img src="img/stormwaterpipe1.jpg" alt="">
-<!--                            <div class="overlay-content">-->
-<!--                                <ul>-->
-<!--                                    <li><i class="fa fa-star"></i></li>-->
-<!--                                    <li><i class="fa fa-star"></i></li>-->
-<!--                                    <li><i class="fa fa-star"></i></li>-->
-<!--                                    <li><i class="fa fa-star"></i></li>-->
-<!--                                    <li><i class="fa fa-star"></i></li>-->
-<!--                                </ul>-->
-<!--                            </div>-->
-<!--                            <div class="date-content">-->
-<!--                                <h6>12</h6>-->
-<!--                                <span>October</span>-->
-<!--                            </div>-->
+                            <img src="img/STORMWATER-Pipe.jpg" alt="STORMWATER Pipe">
                         </div>
                         <div class="down-content">
                             <h4>Stormwater Pipe PVC</h4>
-<!--                            <span>Category Three</span>-->
                             <p>Stormwater pipes are used for drainage of excess rain and groundwater; they tend to be mostly used underground to rid of storm water. </p>
                             <div class="row">
                                 <div class="col-md-12 first-button">
@@ -344,59 +323,195 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/GAS-Pipe.jfif" alt="GAS Pipe">
+                        </div>
+                        <div class="down-content">
+                            <h4>Gas Pipe</h4>
+                            <p>Gas pipes are used for carrying natural gases from your local gas pies to your homes; Most of the time, gases for cooking purposes</p>
+                            <div class="row">
+                                <div class="col-md-12 first-button">
+                                    <div class="text-button">
+                                        <a href="#">View all Stormwater Pipes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/AIR-Pipe.jpg" alt="AIR Pipe">
+                        </div>
+                        <div class="down-content">
+                            <h4>Air Pipe</h4>
+                            <p>Not to be confused with Gas pipes, Air pipes are used to carry compressed air of various kinds; commonly used in conjuction with oxygen tanks </p>
+                            <div class="row">
+                                <div class="col-md-12 first-button">
+                                    <div class="text-button">
+                                        <a href="#">View all Stormwater Pipes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/POLY-Pipe.jpg" alt="POLY Pipe">
+                        </div>
+                        <div class="down-content">
+                            <h4>Poly Pipe</h4>
+                            <p>Pipe that is made with Plastic polymers; Compared to PVC, It is able to handle less pressure, however it is able to withstand cold better than PVC</p>
+                            <div class="row">
+                                <div class="col-md-12 first-button">
+                                    <div class="text-button">
+                                        <a href="#">View all Stormwater Pipes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/ELECTRICAL-Conduit.jfif" alt="ELECTRICAL Conduit">
+                        </div>
+                        <div class="down-content">
+                            <h4>Electrical Conduit</h4>
+                            <p> Many Pipes made with many various materials, used in the transportation of electricity; carrying electricity to households</p>
+                            <div class="row">
+                                <div class="col-md-12 first-button">
+                                    <div class="text-button">
+                                        <a href="#">View all Stormwater Pipes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/COMMUNICATION-Conduit.jfif" alt="COMMUNICATION Conduit">
+                        </div>
+                        <div class="down-content">
+                            <h4>Communication Conduit</h4>
+                            <p>Not to be confused with Electrical conduit - but similarly, pipes of various materials carrying weak currents; Example: Ethernet cables </p>
+                            <div class="row">
+                                <div class="col-md-12 first-button">
+                                    <div class="text-button">
+                                        <a href="#">View all Stormwater Pipes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="featured-item">
+                        <div class="thumb">
+                            <img src="img/SLOTTED-Pipe.jpg" alt="SLOTTED Pipe">
+                        </div>
+                        <div class="down-content">
+                            <h4>Slotted Pipe</h4>
+                            <p>Compared to other pipes, Slotted pipes makes it easier for pipes to connect to other slotted pipes; simply slot the old pipe out and slot in a new one. </p>
+                            <div class="row">
+                                <div class="col-md-12 first-button">
+                                    <div class="text-button">
+                                        <a href="#">View all Stormwater Pipes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
 
+        <!-- Map portion of the website-->
+    <section class="contact" id="contact">
+        <h1> Our location: </h1>
+        <div id="map" class="map">
+            <!-- How to change your own map point
+                   1. Go to Google Maps
+                   2. Click on your location point
+                   3. Click "Share" and choose "Embed map" tab
+                   4. Copy only URL and paste it within the src="" field below
+            -->
 
-    <section class="our-services" id="services">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93718.79865097628!2d115.86594264758111!3d-31.996272554289476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32bebee038c4e7%3A0xd758575a4e0956e1!2sPipeOnline.com.au!5e0!3m2!1sen!2sau!4v1685078490459!5m2!1sen!2sau" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="wrapper">
                     <div class="section-heading">
-                        <span>Our Services</span>
-                        <h2>Best Template Site</h2>
+                        <h2>Come meet us in person or</h2>
                     </div>
-                </div> 
-            </div> 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="service-item">
-                        <div class="icon">
-                            <img src="img/service_icon_1.png" alt="">
-                        </div>
-                        <h4>High Quality Design</h4>
-                        <p>Etiam viverra nibh at lorem hendrerit porta non nec ligula. Donec hendrerit porttitor pretium. Suspendisse fermentum nec risus.</p>
-                    </div>
+                    <!-- Modal button -->
+                    <button id="modBtn" class="modal-btn">Send us an enquiry</button>
                 </div>
-                <div class="col-md-4">
-                    <div class="service-item">
-                        <div class="icon">
-                            <img src="img/service_icon_2.png" alt="">
+                <div id="modal" class="modal">
+                    <!-- Modal Content -->
+                    <div class="modal-content">
+                        <div class="close fa fa-close"></div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="left-content" style="display:flex">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="section-heading">
+                                                <span>Have any questions?</span>
+                                                <h2>Send us an enquiry and we'll get back to you shortly</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <fieldset>
+                                                <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <fieldset>
+                                                <input name="Email" type="Email" class="form-control" id="email" placeholder="Your Email..." required="">
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <fieldset>
+                                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                            </fieldset>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <fieldset>
+                                                <button type="submit" id="form-submit" class="btn">Send Message</button>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h4>Fully Customizable</h4>
-                        <p>Vivamus nec vehicula felis, sit amet convallis ex. Aenean dolor risus, rutrum at tincidunt eget, placerat ac mauris.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-item">
-                        <div class="icon">
-                            <img src="img/service_icon_3.png" alt="">
-                        </div>
-                        <h4>Best HTML CSS Layout</h4>
-                        <p>Praesent nec dui sed urna pharetra dapibus at ac elit. Aenean hendrerit metus leo, quis viverra purus condimentum nec.</p>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+
+            <!-- About the company section here -->
             <div class="row">
                 <div class="col-md-12">
-                    <div class="down-services">
+                    <div class="down-services" id="about">
                         <div class="row">
                             <div class="col-md-5 col-md-offset-1">
                                 <div class="left-content">
-                                    <h4>In hac habitasse platea dictumst</h4>
-                                    <p>Aenean hendrerit metus leo, quis viverra purus condimentum nec. Pellentesque a sem semper, lobortis mauris non, varius urna. Quisque sodales purus eu tellus fringilla.<br><br>Mauris sit amet quam congue, pulvinar urna et, congue diam. Suspendisse eu lorem massa. Integer sit amet posuere tellus, id efficitur leo. In hac habitasse platea dictumst.</p>
+                                    <h1>About us</h1>
+                                    <p>Based in Western Australia, pipeonline.com.au serves customers Australia-wide. We distribute goods direct from the manufacturer to your doorstep: no middlemen, no intermediate holding costs, no retail operation costs. Our focus is on direct bulk selling at exceptionally competitive prices in the piping industry.<br></p>
                                     <div class="blue-button">
                                         <a href="#">Discover More</a>
                                     </div>
@@ -406,16 +521,16 @@
                                 <div class="accordions">
                                     <ul class="accordion">
                                         <li>
-                                            <a>Ut in dapibus ipsum</a>
-                                            <p>Nulla eget aliquet dui, vitae tincidunt nulla. Sed sagittis odio vitae auctor volutpat. In semper ex neque, ut hendrerit mauris rutrum eget. Integer consectetur neque eu enim dictum porta. Sed et risus ac sapien congue mattis.</p>
+                                            <a>Product info</a>
+                                            <p>With over 3000 products in stock and more available by special order from manufacturers we can satisfy your needs. If you can’t find what you’re looking for on our website please contact us – there’s a good chance we can source it for you with an attractive price point.</p>
                                         </li>
                                         <li>
-                                            <a>Vivamus ligula metus</a>
-                                            <p>Integer vel augue arcu. Fusce ac turpis cursus, malesuada nulla quis, lobortis dui. Etiam blandit, erat efficitur rhoncus pellentesque, ligula turpis tempor dolor.</p>
+                                            <a>You order, we deliver - Australia wide</a>
+                                            <p>We stock a wide range of locally manufactured and imported products, providing the bread and butter of the plumbing and irrigation industries. As a quality wholesaler of PVC pipe, poly pipe, electrical conduit, fittings, cables, tools, and associated products, we are confident we can meet the needs of projects and maintenance in relevant industries. We are experienced in finding suitable products for customers with diverse needs, and if we don’t have what you want, we should be able to find it for you.</p>
                                         </li>
                                         <li>
-                                            <a>Suspendisse dapibus</a>
-                                            <p>Nullam nibh lacus, rhoncus sit amet feugiat vel, porttitor sit amet nibh. Pellentesque feugiat justo nec enim pretium, sed faucibus lacus aliquam. Sed ac interdum mauris.</p>
+                                            <a>Warranties</a>
+                                            <p>We sell medium to high-end products to trade professionals and hobbyists alike. We do not stock low-grade products with short expected lifespans. Our goods are for long-term use and we will never sell an item we wouldn’t permanently install in our own homes. If you discover any problems with the design or quality of our goods please contact us so that we can rectify the issue immediately. We take great care to remove products from our inventory that do not hold up to scrutiny.</p>
                                         </li>
                                     </ul> <!-- / accordion -->
                                 </div>
@@ -427,183 +542,6 @@
         </div>
     </section>
 
-    
-
-<!--    <section id="video-container">-->
-<!--        <div class="video-overlay"></div>-->
-<!--        <div class="video-content">-->
-<!--            <div class="inner">-->
-<!--                <span>Video Presentation</span>-->
-<!--                <h2>Sed et risus ac sapien congue mattis.</h2>-->
-<!--                <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <video autoplay="" loop="" muted>-->
-<!--        	<source src="highway-loop.mp4" type="video/mp4" />-->
-<!--        </video>-->
-<!--    </section>-->
-
-
-
-<!--    <section class="pricing-tables">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-md-12">-->
-<!--                    <div class="section-heading">-->
-<!--                        <span>Pricing Tables</span>-->
-<!--                        <h2>Duis molestie ipsum id faucibus fermentum</h2>-->
-<!--                    </div>-->
-<!--                </div> -->
-<!--            </div> -->
-<!--            <div class="row">-->
-<!--                <div class="col-md-4">-->
-<!--                    <div class="table-item">-->
-<!--                        <div class="top-content">-->
-<!--                            <h4>Starter Plan</h4>-->
-<!--                            <h1>$25</h1>-->
-<!--                            <span>/monthly</span>-->
-<!--                        </div>-->
-<!--                        <ul>-->
-<!--                            <li><a href="#">100 Suspendisse dapibus</a></li>-->
-<!--                            <li><a href="#">10x Paleo celiac enamel</a></li>-->
-<!--                            <li><a href="#">Williamsburg organic post ironic</a></li>-->
-<!--                            <li><a href="#">Helvetica pinterest yuccie</a></li>-->
-<!--                            <li><a href="#">Plaid shabby chic godard</a></li>-->
-<!--                        </ul>-->
-<!--                        <div class="blue-button">-->
-<!--                            <a href="#">Buy It Now</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-md-4">-->
-<!--                    <div class="table-item">-->
-<!--                        <div class="top-content">-->
-<!--                            <h4>Premium Plan</h4>-->
-<!--                            <h1>$45</h1>-->
-<!--                            <span>/monthly</span>-->
-<!--                        </div>-->
-<!--                        <ul>-->
-<!--                            <li><a href="#">200 Suspendisse dapibus</a></li>-->
-<!--                            <li><a href="#">20x Paleo celiac enamel</a></li>-->
-<!--                            <li><a href="#">Williamsburg organic post ironic</a></li>-->
-<!--                            <li><a href="#">Helvetica pinterest yuccie</a></li>-->
-<!--                            <li><a href="#">Plaid shabby chic godard</a></li>-->
-<!--                        </ul>-->
-<!--                        <div class="blue-button">-->
-<!--                            <a href="#">Buy It Now</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-md-4">-->
-<!--                    <div class="table-item">-->
-<!--                        <div class="top-content">-->
-<!--                            <h4>Advanced Plan</h4>-->
-<!--                            <h1>$85</h1>-->
-<!--                            <span>/monthly</span>-->
-<!--                        </div>-->
-<!--                        <ul>-->
-<!--                            <li><a href="#">400 Suspendisse dapibus</a></li>-->
-<!--                            <li><a href="#">40x Paleo celiac enamel</a></li>-->
-<!--                            <li><a href="#">Williamsburg organic post ironic</a></li>-->
-<!--                            <li><a href="#">Helvetica pinterest yuccie</a></li>-->
-<!--                            <li><a href="#">Plaid shabby chic godard</a></li>-->
-<!--                        </ul>-->
-<!--                        <div class="blue-button">-->
-<!--                            <a href="#">Buy It Now</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-
-
-
-<!--    <section class="contact" id="contact">-->
-<!--        <div id="map">-->
-<!--        			&lt;!&ndash; How to change your own map point-->
-<!--                           1. Go to Google Maps-->
-<!--                           2. Click on your location point-->
-<!--                           3. Click "Share" and choose "Embed map" tab-->
-<!--                           4. Copy only URL and paste it within the src="" field below-->
-<!--                    &ndash;&gt;-->
-
-<!--            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1197183.8373802372!2d-1.9415093691103689!3d6.781986417238027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi+Central+Market!5e0!3m2!1sen!2sth!4v1532967884907" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>-->
-<!--        </div>-->
-<!--        <div class="container">-->
-<!--            <div class="col-md-10 col-md-offset-1">-->
-<!--                <div class="wrapper">-->
-<!--                  <div class="section-heading">-->
-<!--                      <span>Contact Us</span>-->
-<!--                      <h2>Vivamus nec vehicula felis</h2>-->
-<!--                  </div>-->
-<!--                  &lt;!&ndash; Modal button &ndash;&gt;-->
-<!--                  <button id="modBtn" class="modal-btn">Talk to us</button>-->
-<!--                </div>  -->
-<!--                <div id="modal" class="modal">-->
-<!--                  &lt;!&ndash; Modal Content &ndash;&gt;-->
-<!--                  <div class="modal-content">-->
-<!--                    <div class="close fa fa-close"></div>-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-md-8"> -->
-<!--                            <div class="left-content">-->
-<!--                                <div class="row">-->
-<!--                                    <div class="col-md-12">-->
-<!--                                        <div class="section-heading">-->
-<!--                                            <span>Talk To Us</span>-->
-<!--                                            <h2>Let's have a discussion</h2>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                    <div class="col-md-6">-->
-<!--                                      <fieldset>-->
-<!--                                        <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">-->
-<!--                                      </fieldset>-->
-<!--                                    </div>-->
-<!--                                     <div class="col-md-6">-->
-<!--                                      <fieldset>-->
-<!--                                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">-->
-<!--                                      </fieldset>-->
-<!--                                    </div>-->
-<!--                                    <div class="col-md-12">-->
-<!--                                      <fieldset>-->
-<!--                                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>-->
-<!--                                      </fieldset>-->
-<!--                                    </div>-->
-<!--                                    <div class="col-md-12">-->
-<!--                                      <fieldset>-->
-<!--                                        <button type="submit" id="form-submit" class="btn">Send Message</button>-->
-<!--                                      </fieldset>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="col-md-4">-->
-<!--                            <div class="right-content">-->
-<!--                                <div class="row">-->
-<!--                                    <div class="col-md-12">-->
-<!--                                        <div class="content">                                          -->
-<!--                                            <div class="section-heading">-->
-<!--                                                <span>More About Us</span>-->
-<!--                                                <h2>Venue Company</h2>-->
-<!--                                            </div>-->
-<!--                                            <p>Etiam viverra nibh at lorem hendrerit porta non nec ligula. Donec hendrerit porttitor pretium. Suspendisse fermentum nec risus eu bibendum.</p>-->
-<!--                                            <ul>-->
-<!--                                                <li><span>Phone:</span><a href="#">010-050-0550</a></li>-->
-<!--                                                <li><span>Email:</span><a href="#">hi@company.co</a></li>-->
-<!--                                                <li><span>Address:</span><a href="#">company.co</a></li>-->
-<!--                                            </ul>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>      -->
-<!--                  </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-
 
 
     <footer>
@@ -612,9 +550,9 @@
                 <div class="col-md-5">
                     <div class="about-veno">
                         <div class="logo">
-                            <img src="img/footer_logo.png" alt="Venue Logo">
+                            <img src="img/pipelogo.png" alt="Pipe online Logo">
                         </div>
-                        <p>Mauris sit amet quam congue, pulvinar urna et, congue diam. Suspendisse eu lorem massa. Integer sit amet posuere tellus, id efficitur leo. In hac habitasse platea dictumst.</p>
+                        <p>Pipes are the dream, you want them, we provide to you.</p>
                         <ul class="social-icons">
                             <li>
                                 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -658,11 +596,11 @@
                         <div class="footer-heading">
                             <h4>Contact Information</h4>
                         </div>
-                        <p>Praesent iaculis gravida elementum. Proin fermentum neque facilisis semper pharetra. Sed vestibulum vehicula tincidunt.</p>
+                        <p>You may contact us with the information below: </p>
                         <ul>
-                            <li><span>Phone:</span><a href="#">010-050-0550</a></li>
-                            <li><span>Email:</span><a href="#">hi@company.co</a></li>
-                            <li><span>Address:</span><a href="#">company.co</a></li>
+                            <li><span>Phone:</span><a href="#">08 9356 7600</a></li>
+                            <li><span>Email:</span><a href="#">info@pipeonline.com.au</a></li>
+                            <li><span>Address:</span><a href="#">2/5 Dampier Rd, Welshpool WA 6106</a></li>
                         </ul>
                     </div>
                 </div>
@@ -671,7 +609,7 @@
     </footer>
 
     <div class="sub-footer">
-        <p>Copyright &copy; 2018 Company Name 
+        <p>Copyright &copy; 2023 Pipeonline.com.au
     
     	- Design: <a rel="nofollow" href="http://www.templatemo.com">Template Mo</a></p>
     </div>

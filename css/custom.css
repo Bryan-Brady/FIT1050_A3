@@ -112,15 +112,22 @@ body {
 .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #818181;
     display: block;
     transition: 0.3s;
 }
 
+.sidebar p {
+    font-size: 25px;
+    text-align: left;
+    color: white;
+}
+
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
     color: #f1f1f1;
+    background-color: #006dcc;
 }
 
 /* Position and style the close button (top right corner) */
@@ -185,5 +192,24 @@ form {
 .header-nav{
     display: flex;
     float: right;
+}
+
+.container-fluid img{
+    width: 244px;
+    height: 272px;
+}
+
+
+.contact {
+    background-color: lightskyblue;
+}
+
+.contact h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.map {
+    margin: 20px;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
